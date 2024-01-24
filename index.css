@@ -1,0 +1,19 @@
+.officials-list-image-container {
+  position: relative;
+  height: 220px;
+  width: 40%;
+}
+
+.officials-list-image-container img:first-child {
+  position: absolute;
+}
+
+#fifth-place-text {
+  float: left;
+}
+
+@media (min-width: 1024px) {
+  .officials-list-image-container {
+    width: 100%;
+  }
+}

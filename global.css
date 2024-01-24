@@ -1,0 +1,28 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #00297b;
+}
+
+main {
+  width: 100%;
+  background-color: #fff;
+}
+
+section {
+  margin: auto;
+  width: 100%;
+  max-width: 960px;
+}
+
+h3,
+a {
+  display: flex;
+}
+
+.city-link:hover {
+  --tw-text-opacity: 1;
+  color: rgb(220 38 38 / var(--tw-text-opacity));
+}
